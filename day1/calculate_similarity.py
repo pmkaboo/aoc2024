@@ -1,6 +1,6 @@
-def calculate_similarity(arr1, arr2):
+def calculate_similarity(arr1: list[int], arr2: list[int]) -> int:
     similarity = 0
-    occurences = {}
+    occurences: dict[int, int] = {}
 
     for x in arr2:
         if occurences.get(x):

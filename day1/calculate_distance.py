@@ -1,4 +1,4 @@
-def calculate_distance(arr1, arr2):
+def calculate_distance(arr1: list[int], arr2: list[int]) -> int:
     if len(arr1) != len(arr2):
         raise Exception("Arrays must be of same length")
 
